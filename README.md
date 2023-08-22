@@ -27,7 +27,7 @@ hovers over them.
 
 Here's a walkthrough of implemented features:
 
-<img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG04eDBhMTFsdDk2NHVyc2duOGk2OTFlZ2MxczV2YXB0MjFzZGVoNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wu0IYLo205JpIyAwU3/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/Uw3z7B5.mp4' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap and Giphy 
