@@ -10,6 +10,8 @@ body {
 }
 
 .header {
+    position: fixed;
+    width: 100%;
     display: flex;
     background-color: lightblue;
     padding: 1%;
@@ -19,8 +21,25 @@ body {
     margin-top: -10px;
 }
 
+.header a {
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    color:black;
+}
+
+.header a:hover {
+    cursor: pointer;
+}
+
 .stats-container {
     display: flex;
+    align-items: center;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -72,4 +91,52 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+#button-container button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+.navbar {
+    position: relative; 
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline;
+    margin: 0 10px;
+    font-family: 'Cabin';
+    font-family: 'Cabin';
+    border: none;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+}
+
+.nav-list a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-list li:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px #758190;
+}
+
+.content {
+    padding: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
